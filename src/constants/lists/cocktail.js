@@ -2,13 +2,13 @@ const cocktailLists = [
   {
     name: "Chapel Hill Shiraz",
     country: "AU",
-    detail: "Battle",
+    detail: "bottle",
     price: "$10",
   },
   {
     name: "Caten Malbee",
     country: "AU",
-    detail: "Battle",
+    detail: "bottle",
     price: "$49",
   },
   {

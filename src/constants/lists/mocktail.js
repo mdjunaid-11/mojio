@@ -2,13 +2,13 @@ const mocktailLists = [
   {
     name: "Tropical Bloom",
     country: "US",
-    detail: "Battle",
+    detail: "bottle",
     price: "$10",
   },
   {
     name: "Passionfruit Mint",
     country: "US",
-    detail: "Battle",
+    detail: "bottle",
     price: "$49",
   },
   {

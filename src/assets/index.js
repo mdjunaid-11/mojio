@@ -8,6 +8,8 @@ import abt2Img from "./images/abt2.png";
 import abt3Img from "./images/abt3.png";
 import abt4Img from "./images/abt4.png";
 import abt5Img from "./images/abt5.png";
+import checkImg from "./images/check.png";
+import underCocktailImg from "./images/under-img.jpg"
 import mojitoVideo from "./videos/mojito.mp4";
 
 export {
@@ -21,5 +23,7 @@ export {
   abt3Img,
   abt4Img,
   abt5Img,
+  checkImg,
+  underCocktailImg,
   mojitoVideo,
 };

@@ -1,4 +1,4 @@
-import { logoImg } from "@/assets/images";
+import { logoImg } from "@/assets";
 import { navLinks } from "@/constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -24,7 +24,6 @@ const Navbar = () => {
         ease: "power1.inOut",
       },
     );
-    
   });
 
   return (

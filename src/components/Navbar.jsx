@@ -9,20 +9,22 @@ const Navbar = () => {
       scrollTrigger: {
         trigger: "nav",
         start: "bottom top",
-        toggleActions: "play reverse play reverse",
+        end: "top top",
+        scrub: 1,
       },
     });
 
     navTween.fromTo(
       "nav",
-      { backgroundColor: "transparent", backdropFilter: "blur(0px)" },
+      { backgroundColor: "transparent" },
       {
         backgroundColor: "#00000050",
         backdropFilter: "blur(10px)",
-        duration: 0.8,
-        ease: "power2.inOut",
+        duration: 1,
+        ease: "power1.inOut",
       },
     );
+    
   });
 
   return (

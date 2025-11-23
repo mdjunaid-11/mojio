@@ -14,11 +14,11 @@ const App = () => (
   <main>
     <Navbar />
     <Hero />
-    <Cocktails/>
-    <About/>
-    <Art/>
+    <Cocktails />
+    <About />
+    <Art />
     <Menu />
-    <Contact/>
+    <Contact />
   </main>
 );
 

@@ -20,8 +20,8 @@ const Menu = () => {
       )
       .fromTo(
         "#m-left-leaf",
-        { rotate: 5,yPercent:100 },
-        { rotate: 0,yPercent:0, duration: 1, ease: "power2.inOut" },
+        { rotate: 5, yPercent: 100 },
+        { rotate: 0, yPercent: 0, duration: 1, ease: "power2.inOut" },
       );
   }, []);
   return (

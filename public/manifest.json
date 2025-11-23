@@ -1,0 +1,41 @@
+{
+  "name": "mojio - mocktails with shock tales",
+  "short_name": "mojio",
+  "description": "Mojio is an interactive landing page showcasing cocktails and mocktails with smooth GSAP animations and scroll-controlled video playback.",
+  "icons": [
+    {
+      "src": "/mojio/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/mojio/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/mojio/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/mojio/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/mojio/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/mojio/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "theme_color": "transparent",
+  "background_color": "transparent",
+  "display": "standalone"
+}

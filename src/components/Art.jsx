@@ -1,5 +1,5 @@
 import { checkImg, underCocktailImg } from "@/assets";
-import { featureLists, goodLists } from "@/constants";
+import { featureLists, goodLists } from "@/assets/constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useMediaQuery } from "react-responsive";
@@ -31,11 +31,11 @@ const Art = () => {
         maskSize: "400%",
         duration: 1,
         ease: "power1.inOut",
-      }).to('#masked-content', {
+      })
+      .to("#masked-content", {
         opacity: 1,
         duration: 1,
-        ease: 'power1.inOut',
-        
+        ease: "power1.inOut",
       });
   });
 

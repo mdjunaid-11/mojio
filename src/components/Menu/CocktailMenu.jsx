@@ -1,5 +1,5 @@
 import React from "react";
-import { allCocktails } from "@/constants";
+import { allCocktails } from "@/assets/constants";
 import { leftArrowImg, rightArrowImg } from "@/assets";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -42,7 +42,7 @@ const CocktailMenu = () => {
       },
     );
     gsap.fromTo(
-    ".details h2,.details p",
+      ".details h2,.details p",
       { yPercent: 100, opacity: 0 },
       {
         yPercent: 0,

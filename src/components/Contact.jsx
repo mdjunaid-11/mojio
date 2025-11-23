@@ -1,5 +1,5 @@
 import { footerLeftLeafImg, footerRightLeafImg } from "@/assets";
-import { openingHours, socials } from "@/constants";
+import { openingHours, socials } from "@/assets/constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";

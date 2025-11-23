@@ -1,5 +1,5 @@
 import { cocktailLeftLeafImg, cocktailRightLeafImg } from "@/assets";
-import { cocktailLists, mocktailLists } from "@/constants";
+import { cocktailLists, mocktailLists } from "@/assets/constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 

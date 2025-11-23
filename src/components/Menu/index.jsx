@@ -9,12 +9,20 @@ const Menu = () => {
       .timeline({
         scrollTrigger: {
           trigger: "#menu",
-          start: "top bottom",
-          end: "top 5%",
+          start: "top bottom", // section enters the screen
           scrub: true,
         },
       })
-      .fromTo("#m-right-leaf", { rotate: -45 ,xPercent:100}, { rotate: 0,xPercent:0, duration:1, ease: "power2.inOut" })
+      .fromTo(
+        "#m-right-leaf",
+        { rotate: -45, xPercent: 100 },
+        { rotate: 0, xPercent: 0, duration: 1, ease: "power2.inOut" },
+      )
+      .fromTo(
+        "#m-left-leaf",
+        { rotate: 5,yPercent:100 },
+        { rotate: 0,yPercent:0, duration: 1, ease: "power2.inOut" },
+      );
   }, []);
   return (
     <section id="menu" aria-labelledby="menu-heading">

@@ -1,17 +1,19 @@
+import { facebookIcon, instagramIcon, xIcon } from "@/assets";
+
 const socials = [
   {
     name: "Instagram",
-    icon: "/images/insta.png",
+    icon: instagramIcon,
     url: "#",
   },
   {
     name: "X (Twitter)",
-    icon: "/images/x.png",
+    icon: xIcon,
     url: "#",
   },
   {
     name: "Facebook",
-    icon: "/images/fb.png",
+    icon: facebookIcon,
     url: "#",
   },
 ];

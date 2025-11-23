@@ -6,6 +6,7 @@ import { useMediaQuery } from "react-responsive";
 
 const Navbar = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
+
   useGSAP(() => {
     const navTween = gsap.timeline({
       scrollTrigger: {
@@ -16,8 +17,8 @@ const Navbar = () => {
       },
     });
 
-    navTween
-      .fromTo(
+    if (isMobile) {
+      navTween.fromTo(
         "#logo",
         {
           scale: 1,
@@ -30,16 +31,17 @@ const Navbar = () => {
           display: "none",
           duration: 1,
         },
-      )
-      .fromTo(
-        "nav",
-        { backgroundColor: "transparent" },
-        {
-          backgroundColor: "#00000050",
-          backdropFilter: "blur(10px)",
-          ease: "power1.inOut",
-        },
       );
+    }
+    navTween.fromTo(
+      "nav",
+      { backgroundColor: "transparent" },
+      {
+        backgroundColor: "#00000050",
+        backdropFilter: "blur(10px)",
+        ease: "power1.inOut",
+      },
+    );
   });
 
   return (
